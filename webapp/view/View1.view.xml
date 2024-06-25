@@ -1,0 +1,34 @@
+<mvc:View controllerName="com.sap.kt.binding.bindingbyusingmodel2.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content >
+        <Table id="idExpenseTable" alternateRowColors="false" items="{path:'modelData>/'}" >
+		            <columns >
+			            <Column  >
+			            	<Text text="ExpID" />
+			            </Column>
+			            <Column>
+			            	<Text text="ExpenseName" />
+			            </Column>
+			            <Column>
+			            	<Text text="ExpAmount" />
+			            </Column>
+			            <Column >
+			            	<Text text="ExpDate" />
+			            </Column>
+		            </columns>
+                    <items>
+                        <ColumnListItem id="colId"  class="cell" >
+                            <cells class="fun">
+                               <Text id="idText" text="{modelData>exId}"  />
+                               <Text text="{modelData>exName}"  />
+                               <Text text="{modelData>exAmount}"  />
+                               <Text text="{modelData>exDate}"  />
+                            </cells>
+                        </ColumnListItem>
+                    </items>
+                  </Table>  
+        </content>
+    </Page>
+</mvc:View>

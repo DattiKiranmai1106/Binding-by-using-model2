@@ -1,0 +1,16 @@
+{
+    "jsonData1":[{
+        "exId":1,
+        "exName":"Bus"
+    },{
+        "exId":2,
+        "exName":"Car"
+    },{
+        "exId":3,
+        "exName":"Train"
+    },
+    {
+        "exId":39,
+        "exName":"Train"
+    }]
+}

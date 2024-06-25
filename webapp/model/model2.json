@@ -1,0 +1,20 @@
+{
+    "jsonData2":[
+       {
+        "exId":2,
+        "exAmount":1000,
+        "exDate":"12-05-2024"
+    },{
+        "exId":43,
+        "exAmount":1500,
+        "exDate":"24-04-2024"
+    },{
+        "exId":10,
+        "exAmount":3000,
+        "exDate":"17-04-2024"
+    },{
+        "exId":3,
+        "exAmount":1500,
+        "exDate":"24-04-2024"
+    }]
+}
